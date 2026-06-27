@@ -38,6 +38,10 @@ ul li a {
   border-radius: 0.5em;
 }
 
+a:hover {
+  opacity: 75%;
+}
+
 .content {
   display: flex;
   flex-direction: column;
@@ -73,6 +77,15 @@ ul li a {
   cursor: pointer;
 }
 
+#clear-btn:hover {
+  background-color: red;
+  opacity: 85%;
+}
+
+#rainbow-btn:hover {
+  opacity: 75%;
+}
+
 .grid {
   width: 500px;
   height: 500px;
@@ -89,7 +102,7 @@ ul li a {
 }
 
 .add-color {
-  background-color: aqua;
+  background-color: rgb(94, 137, 29);
 }
 
 .footer {
