@@ -61,8 +61,18 @@ ul li a {
   width: 500px;
   height: 500px;
   display: flex;
+  flex-wrap: wrap;
   margin: 0 auto;
-  border: 1px solid black;
+  border: 1px solid rgb(50, 22, 122);
+  border-radius: 1px;
+}
+
+.grid div {
+  flex: 1 1 calc(100% / 16);
+}
+
+.add-color {
+  background-color: aqua;
 }
 
 .footer {
