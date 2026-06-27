@@ -52,6 +52,7 @@ ul li a {
   border-radius: 8px;
 }
 #order {
+  text-align: center;
   border-radius: 0.5em;
   border: 1.5px solid black;
   margin-left: 0.5em;
@@ -65,10 +66,11 @@ ul li a {
   margin: 0 auto;
   border: 1px solid rgb(50, 22, 122);
   border-radius: 1px;
+  --order: 16;
 }
 
 .grid div {
-  flex: 1 1 calc(100% / 16);
+  flex: 1 1 calc(100% / var(--order));
 }
 
 .add-color {
